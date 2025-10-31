@@ -1,34 +1,3 @@
-# “Mini Bank Account Manager”
-# Description:
-# Create a console program that simulates a simple bank system. Each user has an account with a name and a balance. The program should allow the user to:
-# Create a new account
-# Deposit money
-# Withdraw money
-# Transfer money to another account
-# View all accounts
-# Exit
-# Requirements / Guidance
-# Data structure: use a dictionary, e.g. accounts = { "Alice": 1000, "Bob": 500 }.
-# Functions:
-# At least one function should return a value (e.g., check balance).
-# At least one function should display information.
-# Loops:
-# while loop for the main menu.
-# for loop for iterating over accounts when displaying or validating.
-# Nested loop somewhere (e.g., retry input or confirm transfers).
-# Input validation:
-# Cannot withdraw more than balance.
-# Cannot transfer to a non-existing account.
-# Deposit and withdrawal amounts must be positive.
-# Menu:
-# Keep showing menu until the user exits.
-# Validate menu input (1-6).
-# This project is harder than previous ones because it requires:
-# Multiple data operations (deposit, withdraw, transfer)
-# Checking conditions and balances
-# Using functions with both return values and print statements
-# Nested loops for retrying invalid input
-
 
 def create_account(account: dict) -> None:
     while True:
