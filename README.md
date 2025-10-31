@@ -1,8 +1,6 @@
 # MiniBanker - Simple Online Banking System
 
-MiniBanker is a simple Python program that simulates an online banking system.  
-It allows users to **create accounts, deposit and withdraw money, transfer funds, and view account balances**.  
-This project is designed to practice **Python functions, loops, input validation, and dictionary data management**.
+MiniBanker is a console-based banking simulator that lets users create accounts, deposit, withdraw, transfer funds, and view balances. With input validation and safeguards against overdrafts, it uses Python dictionaries, functions, and loops to mimic real banking, making it ideal for beginners learning programming and finance.
 
 ---
 
